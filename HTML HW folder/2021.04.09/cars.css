@@ -1,0 +1,33 @@
+.cars{
+    text-align: center;
+    background-color: darkgray;
+    color:cyan;
+    border: 5px solid black;
+    margin: 30px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carstable{
+    align-content: center;
+}
+.truck{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.motors{
+    text-align: center;
+    background-color:mediumspringgreen;
+    color:mediumslateblue;
+    border: 5px solid black;
+    margin: 30px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table,td,th{
+    border-collapse: collapse;
+    border:2px solid black;
+}
+#carscolors{
+    color:black;
+}
