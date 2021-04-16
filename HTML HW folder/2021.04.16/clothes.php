@@ -2,26 +2,26 @@
 include "doWash.php"; 
 
 
-class Clothes implements doWash{
+class Tshirt implements doWash{
     private $name;
     private $prize;
 
-    public function __construct($outsidename,$outsidePrize){
-        $this->name = $outsidename;
-        $this->prize = $outsidePrize;
+    public function __construct($outsidename,$outsideprize){
+        $this->setName($outsidename);
+        $this->setPrize($outsideprize);
     }
 
 
     public function setName($outsidename){
         $this->name = $outsidename;
+        return $this->name;
     }
     public function getName(){
         return $this->name;
     }
-
-
-    public function setPrize($outsidePrize){
-        $this->prize = $outsidePrize;
+    public function setPrize($outsideprize){
+        $this->prize = $outsideprize;
+        return $this->prize;
     }
     public function getPrize(){
         return $this->prize;
