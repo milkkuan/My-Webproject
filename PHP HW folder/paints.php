@@ -27,6 +27,6 @@ class Paint extends Clothes {
     }
 
 
-    
+
 }
 ?>
