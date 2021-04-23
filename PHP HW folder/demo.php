@@ -1,5 +1,6 @@
 <?php
 include "paints.php";
+include "mark.php";
 
 $tshirt = new Clothes("鬼滅",1000);
 
@@ -14,5 +15,13 @@ printf("褲子的長度：%d CM\n",$cowpaint->getLength());
 printf("褲子的腰圍：%d 吋\n",$cowpaint->getWaist());
 printf("褲子的清洗方式：%s",$cowpaint->doWash());
 
+$cowpaint->setMark(new class implements Mark{
+    public function domark(string $mark)
+    {
+        print ($mark)
+    }
+});
+
+$cowpaint->getMark()->domark("Logo");
 
 ?>

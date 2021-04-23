@@ -26,5 +26,7 @@ class Paint extends Clothes {
     public function __destruct(){
     }
 
+
+    
 }
 ?>

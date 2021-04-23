@@ -1,0 +1,23 @@
+
+#input{
+    align-items: center;
+}
+
+#input table {
+    border: 1px solid darkturquoise;
+    margin: auto;
+    padding: 0px;
+}
+
+#input table tr th{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(24, 255, 205);
+    border: 0px;
+
+}
+
+div.center#button{
+    width: 35%;
+    margin: auto;
+}
